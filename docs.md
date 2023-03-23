@@ -22,27 +22,68 @@ SVGs gebruiken (indien mogelijk)
 
 ## Kleur
 *Welke problemen kan dit veroorzaken?*
+
 8% van de mannen zijn kleurenblind en 2% van de vrouwen, samen dus 10% van de wereldbevolking. Wanneer je rekening houdt met kleuren en contrast in je design help je niet alleen deze mensen, maar je helpt bijvoorbeeld ook mensen met gezonde ogen die energiebesparing hebben aangezet op hun apparaat, of mensen die werken in een omgeving met veel of juist weinig licht. Als je geen rekening zou houden met contrast zou het kunnen zijn dat bepaalde mensen niet de content kunnen zien of lezen op je site.
 
 Om bij het designen rekening te houden met kleur heeft WCAG minimumeisen opgesteld voor contrast ratios. Zo begint een goed contrast ratio vanaf 4.5:1 voor ‘normale’ tekst. Bij een contrast ratio van 1.0:1 is er helemaal geen contrast tussen kleuren, en bij 21.0:1 is het contrast maximaal. Contrast is niet alleen belangrijk voor tekst, maar je moet ook rekening houden met kleuren in tabellen of grafieken.
 
 
 *Hoe je dit kunt testen?* 
+
 Voor het testen van een bepaald contrast op je site/tussen twee kleuren, kun je gebruik maken van verschillende contrast checkers. Zo heb je bijvoorbeeld contrast-ratio.com en contrastchecker.com, en kan je dit bekijken via de dev tools in chrome.
 
 
 *Vind een aantal sites waar dit ook problemen oplevert*
 
+<img src="images/pip-2.png" style="width: 400px">
+
+<img src="images/pip-6.png" style="width: 400px">
 
 
 *Hoe kan je dit fiksen?*
 
+Color contrast checkers tijdens designen.
+
 
 *Bronnen*
-https://aally.app/en/blog/test-the-accessibility-of-your-website-color-and-contrast/ 
-https://css-tricks.com/accessibility-basics-testing-your-page-for-color-blindness/ 
+
+[https://aally.app/en/blog/test-the-accessibility-of-your-website-color-and-contrast/](https://aally.app/en/blog/test-the-accessibility-of-your-website-color-and-contrast/ )
+
+[https://css-tricks.com/accessibility-basics-testing-your-page-for-color-blindness/ ](https://css-tricks.com/accessibility-basics-testing-your-page-for-color-blindness/ )
+
+
+
 
 ## Muis/trackpad
+*Welke problemen kan dit veroorzaken?*
+
+Mensen die liever het toetsenbord gebruiken ipv een muis zijn op te delen in drie categorieën:
+- Mensen met een visuele beperking, waarvoor het moeilijk is om bepaalde elementen te zien en te bedienen
+- Mensen met een mobiliteitsbeperking, waarvoor het moeilijk is om een muis te gebruiken
+- Mensen die voorkeur geven aan toetsenbordbediening over muis
+
+
+*Hoe je dit kunt testen?* 
+
+Het testen hiervan is vrij simpel, door niet je touchpad of muis aan te raken. Op deze manier zal je met het toetsenbord door de site moeten navigeren, en ontdek je of het navigeren met tab werkt zoals je zou verwachten.
+
+
+*Vind een aantal sites waar dit ook problemen oplevert*
+
+<img src="images/pip-3.png" style="width: 400px">
+
+<img src="images/pip-4.png" style="width: 400px">
+
+
+*Hoe kan je dit fiksen?*
+
+Er zijn verschillende oplossingen om dit op te lossen/toe te passen. Zo is de eerste stap om tab navigatie te controleren, het zou kunnen dat er door bepaalde aanpassingen/positionering de tabvolgorde niet meer logisch is. Verder kan het ook nuttig zijn voor de gebruiker om een extra menubalk toe te voegen, die alleen zichtbaar wordt bij het tabben. Deze menubalk zorgt ervoor dat de gebruiker snel naar de belangrijkste informatie kan navigeren. Wat je vooral niet moet doen is de focus van de actieve elementen weghalen, waardoor het onduidelijk wordt om te zien welk element geselecteerd is met de tab toets. Tot slot moet je oppassen voor Keyboard traps, waarbij de gebruiker vast komt te zitten in een bepaald element, en hier alleen uit kan komen door met de muis ergens op te klikken. Niet erg gebruiksvriendelijk voor toetsenbord gebruikers dus!
+
+
+*Bronnen*
+
+[https://digitaaltoegankelijk.nl/nieuws/websites-optimaliseren-toetsenbord/  ](https://digitaaltoegankelijk.nl/nieuws/websites-optimaliseren-toetsenbord/ )
+
 
 
 

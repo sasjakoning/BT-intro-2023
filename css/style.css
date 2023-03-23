@@ -82,7 +82,7 @@ article:not(:first-of-type)::after{
 	line-height: .8;
 }
 
-article:not(:first-of-type):nth-of-type(even)::after {
+article:not(:first-of-type):nth-of-type(odd)::after {
 	right: auto;
 	left: 0
 }
