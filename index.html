@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progressive Enhancement</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="visual-container">
+        <!-- <h1>Progressive Enhancement</h1> -->
+        <section class="visual-content">
+          <div class="visual-content-1">
+            <h2>Layer 1</h2>
+            <p>
+              Hier rechts zie je een bed staan. In principe zou je hier op
+              kunnen liggen en dus het is bruikbaar, maar erg comfortabel ligt
+              het niet. Dit zou je kunnen vergelijken met een website met alleen
+              HTML. Het belangrijkste onderdeel (bedframe/content) is altijd
+              beschikbaar, maar de ervaring is niet optimaal.
+            </p>
+          </div>
+
+          <div class="visual-content-2">
+            <h2>Layer 2</h2>
+            <p>
+              Yes, het bed heeft nu een matras! Dit ligt al een stuk beter dan
+              alleen een bedframe. Je zou hier op kunnen slapen, maar je mist
+              nog wel wat ondersteuning voor je nek en misschien is het ook een
+              beetje koud?
+            </p>
+          </div>
+
+          <div class="visual-content-3">
+            <h2>Layer 3</h2>
+            <p>
+              Kijk, dat ligt echt lekker! Het matras, kussen en deken maken het
+              fijner voor de gebruiker om hier te slapen, maar zijn niet
+              noodzakelijk. Dit zou je kunnen vergelijken met Javascript. Het
+              verbeterd de gebruikerservaring, maar zonder Javascript is het
+              belangrijkste (de content) nog steeds leesbaar.
+            </p>
+          </div>
+
+          <div class="visual-content-4">
+            <h2>Layer 4! Yippie!!</h2>
+            <p>
+              Beter dan dit kan het niet! Comfortabel en stijlvol kan je
+              genieten van een overheerlijke nachtrust. Deze laatste stap kan je
+              vergelijken met het toevoegen van CSS. Het is een verbetering van
+              je website en de ervaring, maar het moet ook zonder deze
+              toevoegingen bruikbaar zijn voor de gebruiker.
+            </p>
+          </div>
+
+          <input
+            type="range"
+            min="0"
+            max="3"
+            value="0"
+            id="steps"
+            class="slider"
+          />
+        </section>
+
+        <section class="visual-bed">
+          <section class="frame">
+            <img src="images/bed-frame.png" alt="" />
+          </section>
+
+          <section class="frame-front">
+            <img src="images/bed-frame-front.png" alt="" />
+          </section>
+
+          <section class="matras">
+            <img src="images/bed-matras.png" alt="" />
+          </section>
+
+          <section class="pillow">
+            <img src="images/bed-pillow-blank.png" alt="" />
+          </section>
+
+          <section class="sheets">
+            <img src="images/bed-sheets-blank.png" alt="" />
+          </section>
+
+          <section class="pillow-extra">
+            <img src="images/bed-pillow.png" alt="" />
+          </section>
+          <section class="sheets-extra">
+            <img src="images/bed-sheets.png" alt="" />
+          </section>
+          <section class="autism">
+            <img src="images/autism.png" alt="" />
+          </section>
+        </section>
+      </article>
+
+      <article class="slide">
+        <section>
+          <picture>
+            <img src="/images/afbeelding-portfolio.png" alt="" />
+          </picture>
+          <picture>
+            <img src="/images/afbeelding-coolblue.png" alt="" />
+          </picture>
+          
+        </section>
+
+        <section>
+          <h2>Afbeeldingen</h2>
+          <p>Mochten afbeeldingen niet geladen worden, dan kan dit invloed hebben
+            op de gebruiksvriendelijkheid van je website. Veel afbeeldingen zijn
+            niet alleen decoratief maar geven de gebruiker ook informatie of werken als link. 
+          </p>
+        </section>
+      </article>
+
+      <article class="slide">
+        <section>
+          <picture>
+            <img src="images/cookies-mediamarkt.png" alt="" />
+          </picture>
+          <picture>
+            <img src="images/cookies-digid.png" alt="" />
+          </picture>
+        </section>
+
+        <section>
+          <h2>Cookies</h2>
+          <p>Cookies zijn bestanden die worden gemaakt door sites die je bezoekt.
+            Ze verbeteren de online functionaliteit door browsegegevens op te
+            slaan. Wanneer een gebruiker geen cookies accepteert, kunnen
+            bepaalde functies niet meer werken zoals: inloggen en product
+            toevoegen aan de winkelwagen.
+          </p>
+        </section>
+      </article>
+
+      <article class="slide">
+        <section>
+          <picture>
+            <img src="./images/algoritme.png" alt="" />
+          </picture>
+          <picture>
+            <img src="./images/algoritme-2.png" alt="" />
+          </picture>
+        </section>
+
+        <section>
+          <h2>Custom fonts</h2>
+          <p>
+            Custom fonts hebben voordelen zoals het verbeteren van de visuele
+            aantrekkingskracht en het verbeteren van de leesbaarheid en
+            toegankelijkheid van de inhoud. Het kan echter de laadtijd van een
+            website vertragen, problemen met cross-browser compatibiliteit
+            veroorzaken en extra kosten en auteursrechtenkwesties met zich
+            meebrengen.
+          </p>
+        </section>
+      </article>
+
+      <article class="slide">
+        <section>
+          <picture>
+            <img src="./images/algoritme.png" alt="" />
+          </picture>
+          <picture>
+            <img src="./images/algoritme-2.png" alt="" />
+          </picture>
+        </section>
+
+        <section>
+          <h2>LocalStorage</h2>
+          <p>
+            Local Storage is een web API waarmee data lokaal opgeslagen kan
+            worden in de browser van de gebruiker. Het is gemakkelijk te
+            gebruiken, slaat gegevens snel op, heeft een grotere
+            opslagcapaciteit dan cookies en de opgeslagen data vervalt niet
+            tenzij de gebruiker deze zelf verwijdert.
+          </p>
+          <p>
+            Maar de Local Storage heeft kwetsbaarheden voor XSS-aanvallen, heeft
+            geen automatische back-up, werkt niet in oudere browsers en heeft
+            beperkte opslagcapaciteit vanwege afhankelijkheid van beschikbaar
+            geheugen van de browser.
+          </p>
+        </section>
+      </article>
+
+      <article class="slide">
+        <section>
+          <picture>
+            <img src="" alt="" />
+          </picture>
+        </section>
+
+        <section>
+          <h2>Kleur</h2>
+          <ul>
+            <li>
+                8% van de mannen + 2% van de vrouwen = 10% van de wereldbevolking
+            </li>
+            <li>
+                Energiebesparing, veel of juist weinig licht.
+            </li>
+            <li>
+                Als je geen rekening zou houden met contrast zou het kunnen zijn dat bepaalde mensen niet de content kunnen zien of lezen op je site.
+            </li>
+          </ul>
+
+          <h3>Testen</h3>
+           <p> 
+            Kan met contrast checkers als contrast-ratio.com, contrastchecker.com of dev tools in chrome. Kan ook in browser met Inspect > Drawer > + > Rendering > Emulate vision deficiencies.
+          </p>
+
+          <h3>Hoe te fixen?</h3>
+           <p> 
+            Rekening houden met kleurcontrast bij het designen, bijvoorbeeld door contrast checkers te gebruiken.
+          </p>
+        
+        </section>
+      </article>
+
+      <article class="slide">
+        <section>
+          <picture>
+            <img src="" alt="" />
+          </picture>
+        </section>
+
+        <section>
+          <h2>Muis/Trackpad</h2>
+          <p>text here</p>
+        </section>
+      </article>
+
+      <article class="slide">
+
+        <section>
+          <h2>Breedband internet</h2>
+
+            <h3>Website: Coolblue</h3>
+            <p>
+                Op slecht internet werkt de website redelijk oke. Het laad als eerste de bovenste navigatie bar, dan de content en dan de afbeeldingen. Wellicht beter dat de text content als eerste wordt geladen?
+            </p>
+
+            <h3>Website: Natuurhuisje</h3>
+            <p>
+                In eerste instantie kijkt de gebruiker naar een wit scherm. Het lijkt erop dat de website pas content toont wanneer zowel de HTML als de CSS is geladen. Daarna laat het de content zien met styling en grijze placeholder plaatjes en een fallback font. Terwijl de afbeeldingen worden geladen wordt ook het custom font ingeladen.
+            </p>
+        </section>
+      </article>
+
+      <article class="slide">
+        <section>
+          <picture>
+            <img src="images/javascript-coolblue.jpg" alt="" />
+          </picture>
+        </section>
+
+        <section>
+          <h2>Javascript</h2>
+
+          <h3>Website: Coolblue</h3>
+          <p>Coolblue is deels functioneel zonder javascript. Wat vooral opvalt is dat sommige elementen raar overlappen en dat er boven aan de pagina een aantal errors staan over het niet kunnen laden van javascript. De website is wel functioneel, maar niet optimaal.</p>
+
+          <h3>Website: Natuurhuisje</h3>
+          <p>Bij natuurhuisje lijkt de website in eerste instantie geheel functioneel. Er is visueel weinig verschil tussen de website met en zonder javascript. Echter zijn er verschillende input velden en dropdowns die niet meer werken, dat is jammer want het is een hoofd functionaliteit van de website. verder zijn er ook een aantal image carousels die niet meer werken.</p>
+        </section>
+      </article>
+
+      <article class="slide content-blockers">
+        <section>
+          <picture>
+            <img src="images/rijkswaterstaat.png" alt="" />
+          </picture>
+
+          <picture>
+            <img src="images/hvaCDM.png" alt="" />
+          </picture>
+        </section>
+
+        <section>
+          <h2>Content blockers & Ad blockers</h2>
+
+          <ul>
+            <li>Ad blockers focussen specifiek op online advertenties</li>
+            <li>
+              Content blockers (uBlock Origin) voor verschillende type content
+            </li>
+            <li>Zorgen ervoor dat bepaalde content niet wordt ingeladen</li>
+          </ul>
+
+          <div>
+            <img src="images/uBlock-Origin.svg" alt="" />
+            <img src="images/adblocker.png" alt="" />
+          </div>
+
+          <h2>Voorbeelden</h2>
+
+          <ul>
+            <li>Rijkswaterstaat (en andere overheidsinstanties) website</li>
+            <li>CMD website</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
